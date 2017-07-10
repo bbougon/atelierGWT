@@ -11,8 +11,6 @@ public class AtelierGwt implements EntryPoint {
     static final String CONTAINER_NAME = "container";
 
     public void onModuleLoad() {
-        RomanNumberWidget romanNumberWidget = new RomanNumberWidget();
-        RootPanel.get(CONTAINER_NAME).add(romanNumberWidget);
     }
 
 }

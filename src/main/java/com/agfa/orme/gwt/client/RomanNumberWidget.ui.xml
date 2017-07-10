@@ -82,7 +82,7 @@
     </ui:style>
 
     <g:FlowPanel>
-        <g:FlowPanel ui:field="romanNumberForm" addStyleNames="{style.row}">
+        <g:FlowPanel ui:field="romanNumberForm">
             <g:InlineLabel text="Enter an arab number: " addStyleNames="{style.padding}"/>
             <g:TextBox ui:field="arabNumberInput" addStyleNames="{style.padding} {style.form-control}"/>
             <g:Button ui:field="arabNumberButton" text="Click" addStyleNames="{style.btn} {style.btn-default}"/>

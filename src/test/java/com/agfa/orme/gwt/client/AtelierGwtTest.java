@@ -23,6 +23,7 @@ public class AtelierGwtTest extends GwtTest {
 
         atelierGwt.onModuleLoad();
 
+        assertThat(RootPanel.get(AtelierGwt.CONTAINER_NAME).getWidgetCount()).isEqualTo(1);
         Widget widget = RootPanel.get(AtelierGwt.CONTAINER_NAME).getWidget(0);
         assertThat(widget).isInstanceOf(RomanNumberWidget.class);
     }
