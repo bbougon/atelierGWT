@@ -13,10 +13,4 @@ public class RomanNumberServiceImplTest {
         assertThat(romanNumber).isEqualTo("XXXIV");
     }
 
-    @Test
-    public void handleRomanNumberException() {
-        String romanNumber = new RomanNumberServiceImpl().getRomanNumber(10000);
-
-        assertThat(romanNumber).isEqualTo("Numbers over 4999 have no roman number equivalency (number given is '10000')");
-    }
 }
